@@ -1,0 +1,42 @@
+body {
+    background-color: #f3f3f3;
+}
+.content-container {
+    max-width: 95%;
+    margin: 0 auto;
+}
+.index-page {
+    width: 100%;
+    margin: 0 auto;
+}
+.index-page-post > div {
+    display: grid;
+}
+.index-page-post > div > h2 {
+    margin: .5rem;
+}
+.index-page-post > div > p {
+    margin: .5rem;
+}
+.index-page-post > div > a > button {
+    float: right;
+    margin: .5rem;
+}
+@media (min-width: 769px) {
+    .content-container {
+        max-width: 960px;
+        margin: 0 auto;
+        padding: 1.45rem 1.0875rem;
+    }
+    .index-page-post {
+        text-decoration: none;
+        color: #212112;
+        background-color: #fcfcfc;
+        margin: 1.45rem 0;
+        transition: .5s;
+    }
+    .index-page-post:hover {
+        transition: .5s;
+        box-shadow: #d4d4d4 10px 10px 25px 1px;
+    }
+}

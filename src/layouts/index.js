@@ -4,6 +4,7 @@ import Helmet from 'react-helmet'
 import Header from '../components/header'
 
 import './index.css'
+import './user-styles.css'
 
 class Layout extends Component {
   render () {
@@ -17,7 +18,7 @@ class Layout extends Component {
           ]}
         />
         <Header siteTitle="Wordpress Headless CMS Starter"/>
-        <div className="content_container">
+        <div className="content-container">
           {this.props.children}
         </div>
       </div>

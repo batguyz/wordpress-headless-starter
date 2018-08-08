@@ -25,18 +25,20 @@ class IndexPage extends Component {
           render={data => ( // return
             <div className="index-page">
               <h1>Blog Posts</h1>
-              <Link className="index-page-post" to={"/post/" + data.allWordpressPost.edges[0].node.slug}>
+              <div className="index-page-post">
                 <div>
                   <h2>{data.allWordpressPost.edges[0].node.title}</h2>
                   <p>{data.allWordpressPost.edges[0].node.excerpt}</p>
+                  <Link to={"/post/" + data.allWordpressPost.edges[0].node.slug}><button>Read More</button></Link>
                 </div>
-              </Link>
-              <Link className="index-page-post" to={"/post/" + data.allWordpressPost.edges[1].node.slug}>
+              </div>
+              <div className="index-page-post" to={"/post/" + data.allWordpressPost.edges[1].node.slug}>
                 <div>
                   <h2>{data.allWordpressPost.edges[1].node.title}</h2>
                   <p>{data.allWordpressPost.edges[1].node.excerpt}</p>
+                  <Link to={"/post/" + data.allWordpressPost.edges[1].node.slug}><button>Read More</button></Link>
                 </div>
-              </Link>
+              </div>
             </div>
           )}
         />
