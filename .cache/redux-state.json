@@ -1,0 +1,2017 @@
+{
+  "nodes": {
+    "SitePage /dev-404-page/": {
+      "jsonName": "dev-404-page-5f9",
+      "internalComponentName": "ComponentDev404Page",
+      "path": "/dev-404-page/",
+      "component": "C:/Users/lukes/Documents/GitHub/wordpress-tutorial-site/.cache/dev-404-page.js",
+      "componentChunkName": "component---cache-dev-404-page-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin dev-404-page",
+      "pluginCreatorId": "Plugin dev-404-page",
+      "componentPath": "C:/Users/lukes/Documents/GitHub/wordpress-tutorial-site/.cache/dev-404-page.js",
+      "id": "SitePage /dev-404-page/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "e6b43f4cc5715af7bf9994cc1b5f49d2",
+        "description": "Plugin dev-404-page",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin dev-404-page": {
+      "resolve": "C:/Users/lukes/Documents/GitHub/wordpress-tutorial-site/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "id": "Plugin dev-404-page",
+      "name": "dev-404-page",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "C:/Users/lukes/Documents/GitHub/wordpress-tutorial-site/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "packageJson": {
+        "name": "dev-404-page",
+        "description": "Internal plugin to add a 404 page in development with helpful information",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "120daf298eda52fbcd5857f87f94c9be",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin load-babel-config": {
+      "resolve": "C:/Users/lukes/Documents/GitHub/wordpress-tutorial-site/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "id": "Plugin load-babel-config",
+      "name": "load-babel-config",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateBabelConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "C:/Users/lukes/Documents/GitHub/wordpress-tutorial-site/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "packageJson": {
+        "name": "load-babel-config",
+        "description": "Internal plugin that handles loading Babel configs",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "2c223f4868d2286905f25d1ba6300a69",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin internal-data-bridge": {
+      "resolve": "C:/Users/lukes/Documents/GitHub/wordpress-tutorial-site/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "id": "Plugin internal-data-bridge",
+      "name": "internal-data-bridge",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "C:/Users/lukes/Documents/GitHub/wordpress-tutorial-site/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "packageJson": {
+        "name": "internal-data-bridge",
+        "description": "An internal Gatsby plugin which creates data nodes from internal data",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "d3d6dd0ae2474e3b5f199a1915f4e672",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin prod-404": {
+      "resolve": "C:/Users/lukes/Documents/GitHub/wordpress-tutorial-site/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "id": "Plugin prod-404",
+      "name": "prod-404",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "C:/Users/lukes/Documents/GitHub/wordpress-tutorial-site/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "packageJson": {
+        "name": "prod-404",
+        "description": "Internal plugin to detect various flavors of 404 pages and ensure there's a 404.html path created as well to ensure compatability with static hosts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "84f1b1e8f0d0e21bff90b6d0138f4b1b",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin query-runner": {
+      "resolve": "C:/Users/lukes/Documents/GitHub/wordpress-tutorial-site/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "id": "Plugin query-runner",
+      "name": "query-runner",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "C:/Users/lukes/Documents/GitHub/wordpress-tutorial-site/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "packageJson": {
+        "name": "query-runner",
+        "description": "Internal plugin for running queries",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "e804f82708778890a8122211c12f7c65",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-react-helmet": {
+      "resolve": "C:/Users/lukes/Documents/GitHub/wordpress-tutorial-site/node_modules/gatsby-plugin-react-helmet",
+      "id": "Plugin gatsby-plugin-react-helmet",
+      "name": "gatsby-plugin-react-helmet",
+      "version": "2.0.11",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "C:/Users/lukes/Documents/GitHub/wordpress-tutorial-site/node_modules/gatsby-plugin-react-helmet",
+      "packageJson": {
+        "name": "gatsby-plugin-react-helmet",
+        "description": "Manage document head data with react-helmet. Provides drop-in server rendering support for Gatsby.",
+        "version": "2.0.11",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "favicon",
+          "react-helmet",
+          "seo",
+          "document",
+          "head",
+          "title",
+          "meta",
+          "link",
+          "script",
+          "base",
+          "noscript",
+          "style"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "matthews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "react-helmet",
+            "version": ">=5.1.3"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "f1e1791c9875771c349c61331e854f0b",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-source-wordpress": {
+      "resolve": "C:/Users/lukes/Documents/GitHub/wordpress-tutorial-site/node_modules/gatsby-source-wordpress",
+      "id": "Plugin gatsby-source-wordpress",
+      "name": "gatsby-source-wordpress",
+      "version": "2.0.93",
+      "pluginOptions": {
+        "plugins": [],
+        "baseUrl": "dev-gatbsyjswp.pantheonsite.io",
+        "hostingWPCOM": false,
+        "protocol": "http",
+        "useACF": true,
+        "auth": {},
+        "verboseOutput": false
+      },
+      "nodeAPIs": [
+        "sourceNodes"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "C:/Users/lukes/Documents/GitHub/wordpress-tutorial-site/node_modules/gatsby-source-wordpress",
+      "packageJson": {
+        "name": "gatsby-source-wordpress",
+        "description": "Gatsby source plugin for building websites using the Wordpress CMS as a data source.",
+        "version": "2.0.93",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "gatsby-source-plugin"
+        ],
+        "author": {
+          "name": "Sebastien Fichot",
+          "email": "fichot.sebastien@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "axios",
+            "version": "^0.16.1"
+          },
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "better-queue",
+            "version": "^3.8.6"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "deep-map",
+            "version": "^1.5.0"
+          },
+          {
+            "name": "deep-map-keys",
+            "version": "^1.2.0"
+          },
+          {
+            "name": "gatsby-source-filesystem",
+            "version": "^1.5.39"
+          },
+          {
+            "name": "json-stringify-safe",
+            "version": "^5.0.1"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "minimatch",
+            "version": "^3.0.4"
+          },
+          {
+            "name": "qs",
+            "version": "^6.4.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "072939e686ead9286c38c75b22716267",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin default-site-plugin": {
+      "resolve": "C:/Users/lukes/Documents/GitHub/wordpress-tutorial-site",
+      "id": "Plugin default-site-plugin",
+      "name": "default-site-plugin",
+      "version": "4b6f314ce8932b8ecc79deae91529f1a",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPages"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "C:/Users/lukes/Documents/GitHub/wordpress-tutorial-site",
+      "packageJson": {
+        "name": "gatsby-wordpress-headless-cms",
+        "description": "Wordpress Headless CMS Starter",
+        "version": "1.0.0",
+        "keywords": [
+          "gatsby"
+        ],
+        "author": "Luke Secomb <hello@lukesecomb.digita>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0-beta.86"
+          },
+          {
+            "name": "gatsby-plugin-react-helmet",
+            "version": "^2.0.11"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^1.6.48"
+          },
+          {
+            "name": "gatsby-source-wordpress",
+            "version": "^2.0.93"
+          },
+          {
+            "name": "gatsby-transformer-sharp",
+            "version": "^1.6.27"
+          },
+          {
+            "name": "react",
+            "version": "^16.4.2"
+          },
+          {
+            "name": "react-dom",
+            "version": "^16.4.2"
+          },
+          {
+            "name": "react-helmet",
+            "version": "^5.2.0"
+          },
+          {
+            "name": "react-router-dom",
+            "version": "^4.3.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "prettier",
+            "version": "^1.13.7"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "df1c1c3d7a3af713c9e4f1e5dbc9e3b7",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-page-creator": {
+      "resolve": "C:/Users/lukes/Documents/GitHub/wordpress-tutorial-site/node_modules/gatsby-plugin-page-creator",
+      "id": "Plugin gatsby-plugin-page-creator",
+      "name": "gatsby-plugin-page-creator",
+      "version": "2.0.0-beta.5",
+      "pluginOptions": {
+        "plugins": [],
+        "path": "C:/Users/lukes/Documents/GitHub/wordpress-tutorial-site/src/pages",
+        "pathCheck": false
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "C:/Users/lukes/Documents/GitHub/wordpress-tutorial-site/node_modules/gatsby-plugin-page-creator",
+      "packageJson": {
+        "name": "gatsby-plugin-page-creator",
+        "description": "Gatsby plugin that automatically creates pages from React components in specified directories",
+        "version": "2.0.0-beta.5",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "7.0.0-beta.52"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "fs-exists-cached",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "glob",
+            "version": "^7.1.1"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "parse-filepath",
+            "version": "^1.0.1"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "7.0.0-beta.52"
+          },
+          {
+            "name": "@babel/core",
+            "version": "7.0.0-beta.52"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "4b98d22704fca61c8399fae9e8d56c6b",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Site": {
+      "siteMetadata": {
+        "title": "Gatsby Default Starter"
+      },
+      "port": 8001,
+      "host": "localhost",
+      "pathPrefix": "",
+      "polyfill": true,
+      "buildTime": "2018-08-08T13:10:04.256Z",
+      "id": "Site",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "b555c41f38bcf856906b7202be2e76c6",
+        "type": "Site",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "C:/Users/lukes/Documents/GitHub/wordpress-tutorial-site/.cache/gatsby-source-filesystem/d47fc0d9fd71e4e41947b74378a92d33.jpeg absPath of file": {
+      "id": "C:/Users/lukes/Documents/GitHub/wordpress-tutorial-site/.cache/gatsby-source-filesystem/d47fc0d9fd71e4e41947b74378a92d33.jpeg absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "e69226757b30b07a553be20adf0983d8",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "description": "File \"http://dev-gatbsyjswp.pantheonsite.io/wp-content/uploads/2017/09/pexels-photo-534327.jpeg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "__PROGRAMATTIC__",
+      "absolutePath": "C:/Users/lukes/Documents/GitHub/wordpress-tutorial-site/.cache/gatsby-source-filesystem/d47fc0d9fd71e4e41947b74378a92d33.jpeg",
+      "relativePath": ".cache/gatsby-source-filesystem/d47fc0d9fd71e4e41947b74378a92d33.jpeg",
+      "extension": "jpeg",
+      "size": 9390981,
+      "prettySize": "9.39 MB",
+      "modifiedTime": "2018-08-08T13:15:21.943Z",
+      "accessTime": "2018-08-08T13:11:32.148Z",
+      "changeTime": "2018-08-08T13:15:21.946Z",
+      "birthTime": "2018-08-08T13:11:32.148Z",
+      "root": "C:/",
+      "dir": "C:/Users/lukes/Documents/GitHub/wordpress-tutorial-site/.cache/gatsby-source-filesystem",
+      "base": "d47fc0d9fd71e4e41947b74378a92d33.jpeg",
+      "ext": ".jpeg",
+      "name": "d47fc0d9fd71e4e41947b74378a92d33",
+      "relativeDirectory": ".cache\\gatsby-source-filesystem",
+      "dev": 103622586,
+      "mode": 33206,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "ino": 1688849861949506,
+      "atimeMs": 1533733892147.7502,
+      "mtimeMs": 1533734121942.569,
+      "ctimeMs": 1533734121945.5623,
+      "birthtimeMs": 1533733892147.7502,
+      "atime": "2018-08-08T13:11:32.148Z",
+      "mtime": "2018-08-08T13:15:21.943Z",
+      "ctime": "2018-08-08T13:15:21.946Z",
+      "birthtime": "2018-08-08T13:11:32.148Z"
+    },
+    "C:/Users/lukes/Documents/GitHub/wordpress-tutorial-site/.cache/gatsby-source-filesystem/d44e69b71d3e3656574191904642be02.jpeg absPath of file": {
+      "id": "C:/Users/lukes/Documents/GitHub/wordpress-tutorial-site/.cache/gatsby-source-filesystem/d44e69b71d3e3656574191904642be02.jpeg absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "a3f086a3a86f36dbcd494cf5b55bf030",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "description": "File \"http://dev-gatbsyjswp.pantheonsite.io/wp-content/uploads/2017/09/pexels-photo-534351.jpeg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "__PROGRAMATTIC__",
+      "absolutePath": "C:/Users/lukes/Documents/GitHub/wordpress-tutorial-site/.cache/gatsby-source-filesystem/d44e69b71d3e3656574191904642be02.jpeg",
+      "relativePath": ".cache/gatsby-source-filesystem/d44e69b71d3e3656574191904642be02.jpeg",
+      "extension": "jpeg",
+      "size": 10018826,
+      "prettySize": "10 MB",
+      "modifiedTime": "2018-08-08T13:15:37.717Z",
+      "accessTime": "2018-08-08T13:11:32.145Z",
+      "changeTime": "2018-08-08T13:15:37.720Z",
+      "birthTime": "2018-08-08T13:11:32.145Z",
+      "root": "C:/",
+      "dir": "C:/Users/lukes/Documents/GitHub/wordpress-tutorial-site/.cache/gatsby-source-filesystem",
+      "base": "d44e69b71d3e3656574191904642be02.jpeg",
+      "ext": ".jpeg",
+      "name": "d44e69b71d3e3656574191904642be02",
+      "relativeDirectory": ".cache\\gatsby-source-filesystem",
+      "dev": 103622586,
+      "mode": 33206,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "ino": 1688849861948990,
+      "atimeMs": 1533733892144.7576,
+      "mtimeMs": 1533734137717.0305,
+      "ctimeMs": 1533734137720.021,
+      "birthtimeMs": 1533733892144.7576,
+      "atime": "2018-08-08T13:11:32.145Z",
+      "mtime": "2018-08-08T13:15:37.717Z",
+      "ctime": "2018-08-08T13:15:37.720Z",
+      "birthtime": "2018-08-08T13:11:32.145Z"
+    },
+    "7313739e-3042-5319-a90f-4b8dd02096e5": {
+      "wordpress_id": 28,
+      "acf": {
+        "page_builder_undefined___NODE": [
+          "7313739e-3042-5319-a90f-4b8dd02096e50page_builderWordPressAcf_excerpt",
+          "7313739e-3042-5319-a90f-4b8dd02096e51page_builderWordPressAcf_post_photo"
+        ]
+      },
+      "id": "7313739e-3042-5319-a90f-4b8dd02096e5",
+      "children": [
+        "7313739e-3042-5319-a90f-4b8dd02096e50page_builderWordPressAcf_excerpt",
+        "7313739e-3042-5319-a90f-4b8dd02096e51page_builderWordPressAcf_post_photo"
+      ],
+      "parent": null,
+      "internal": {
+        "type": "wordpress__acf_posts",
+        "contentDigest": "bc2c6a8741dd4ce7d7bf304078d73bd6",
+        "owner": "gatsby-source-wordpress"
+      }
+    },
+    "7313739e-3042-5319-a90f-4b8dd02096e51page_builderWordPressAcf_post_photo": {
+      "photo___NODE": "bbd8de2a-4ae9-5340-941c-3651080c4768",
+      "id": "7313739e-3042-5319-a90f-4b8dd02096e51page_builderWordPressAcf_post_photo",
+      "parent": "7313739e-3042-5319-a90f-4b8dd02096e51",
+      "children": [],
+      "internal": {
+        "type": "WordPressAcf_post_photo",
+        "contentDigest": "9f44fa7df4e796f80b3d08301fbbd91a",
+        "owner": "gatsby-source-wordpress"
+      }
+    },
+    "7313739e-3042-5319-a90f-4b8dd02096e50page_builderWordPressAcf_excerpt": {
+      "content": "Sed efficitur finibus urna, in laoreet tellus sollicitudin sit amet. Phasellus elementum eros nec augue placerat, eget auctor enim mattis.",
+      "id": "7313739e-3042-5319-a90f-4b8dd02096e50page_builderWordPressAcf_excerpt",
+      "parent": "7313739e-3042-5319-a90f-4b8dd02096e50",
+      "children": [],
+      "internal": {
+        "type": "WordPressAcf_excerpt",
+        "contentDigest": "85f0c4be8389c9426e5794f4840576ff",
+        "owner": "gatsby-source-wordpress"
+      }
+    },
+    "1b6b047e-6031-5697-bca6-31db61aae4d1": {
+      "wordpress_id": 26,
+      "acf": {
+        "page_builder_undefined___NODE": [
+          "1b6b047e-6031-5697-bca6-31db61aae4d10page_builderWordPressAcf_excerpt",
+          "1b6b047e-6031-5697-bca6-31db61aae4d11page_builderWordPressAcf_image_gallery",
+          "1b6b047e-6031-5697-bca6-31db61aae4d12page_builderWordPressAcf_post_photo"
+        ]
+      },
+      "id": "1b6b047e-6031-5697-bca6-31db61aae4d1",
+      "children": [
+        "1b6b047e-6031-5697-bca6-31db61aae4d10page_builderWordPressAcf_excerpt",
+        "1b6b047e-6031-5697-bca6-31db61aae4d11page_builderWordPressAcf_image_gallery",
+        "1b6b047e-6031-5697-bca6-31db61aae4d12page_builderWordPressAcf_post_photo"
+      ],
+      "parent": null,
+      "internal": {
+        "type": "wordpress__acf_posts",
+        "contentDigest": "16340b531f8ba6ce62ac63d6999403b0",
+        "owner": "gatsby-source-wordpress"
+      }
+    },
+    "1b6b047e-6031-5697-bca6-31db61aae4d12page_builderWordPressAcf_post_photo": {
+      "photo___NODE": "7f6e6100-fa9b-5de0-a44f-db4606a84957",
+      "id": "1b6b047e-6031-5697-bca6-31db61aae4d12page_builderWordPressAcf_post_photo",
+      "parent": "1b6b047e-6031-5697-bca6-31db61aae4d12",
+      "children": [],
+      "internal": {
+        "type": "WordPressAcf_post_photo",
+        "contentDigest": "33e05b84b10b5912f91f3186cc7b3b76",
+        "owner": "gatsby-source-wordpress"
+      }
+    },
+    "1b6b047e-6031-5697-bca6-31db61aae4d11page_builderWordPressAcf_image_gallery": {
+      "pictures": [
+        {
+          "title": "Venise",
+          "picture___NODE": "7f6e6100-fa9b-5de0-a44f-db4606a84957"
+        },
+        {
+          "title": "",
+          "picture___NODE": "bbd8de2a-4ae9-5340-941c-3651080c4768"
+        }
+      ],
+      "id": "1b6b047e-6031-5697-bca6-31db61aae4d11page_builderWordPressAcf_image_gallery",
+      "parent": "1b6b047e-6031-5697-bca6-31db61aae4d11",
+      "children": [],
+      "internal": {
+        "type": "WordPressAcf_image_gallery",
+        "contentDigest": "8273374afd24f8d8dc35225ad2b2a586",
+        "owner": "gatsby-source-wordpress"
+      }
+    },
+    "1b6b047e-6031-5697-bca6-31db61aae4d10page_builderWordPressAcf_excerpt": {
+      "content": "Phasellus blandit sollicitudin metus, vitae ultricies tortor pretium sed. Donec et elit sed sapien mattis dapibus non at magna. Nulla et accumsan.",
+      "id": "1b6b047e-6031-5697-bca6-31db61aae4d10page_builderWordPressAcf_excerpt",
+      "parent": "1b6b047e-6031-5697-bca6-31db61aae4d10",
+      "children": [],
+      "internal": {
+        "type": "WordPressAcf_excerpt",
+        "contentDigest": "5e9b61c80dc85ebb82361fe05ebeea99",
+        "owner": "gatsby-source-wordpress"
+      }
+    },
+    "13175b78-cb32-5098-8656-c2576ce105b7": {
+      "wordpress_id": 5,
+      "acf": {
+        "linked_image___NODE": "bbd8de2a-4ae9-5340-941c-3651080c4768",
+        "dummy": true
+      },
+      "id": "13175b78-cb32-5098-8656-c2576ce105b7",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "type": "wordpress__acf_pages",
+        "contentDigest": "15661641bb202745494fe807adb7666a",
+        "owner": "gatsby-source-wordpress"
+      }
+    },
+    "0612cbf7-a4c7-5935-967f-8844089b44ec": {
+      "wordpress_id": 12,
+      "id": "0612cbf7-a4c7-5935-967f-8844089b44ec",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "type": "wordpress__acf_media",
+        "contentDigest": "7bade97b8fc47f204c2fc1fde73db692",
+        "owner": "gatsby-source-wordpress"
+      }
+    },
+    "ed7b2425-b901-5b02-bcd7-101cd5ca87f5": {
+      "wordpress_id": 10,
+      "id": "ed7b2425-b901-5b02-bcd7-101cd5ca87f5",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "type": "wordpress__acf_media",
+        "contentDigest": "f464e19ab3d22d2d394218794ffd63a7",
+        "owner": "gatsby-source-wordpress"
+      }
+    },
+    "f5ca61b7-ce69-57ba-9bb1-464d1eaee014": {
+      "wordpress_id": 2,
+      "id": "f5ca61b7-ce69-57ba-9bb1-464d1eaee014",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "type": "wordpress__acf_categories",
+        "contentDigest": "ac1ebe3619ac5fdfc21c1d507ad09377",
+        "owner": "gatsby-source-wordpress"
+      }
+    },
+    "6b457ecf-441b-5787-8f7c-524e2215be5a": {
+      "wordpress_id": 3,
+      "id": "6b457ecf-441b-5787-8f7c-524e2215be5a",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "type": "wordpress__acf_categories",
+        "contentDigest": "4657abd63f9d3aedfd4f2f4191ba6bd9",
+        "owner": "gatsby-source-wordpress"
+      }
+    },
+    "69ad0262-1e58-5a25-98fd-c85525c61f7c": {
+      "wordpress_id": 1,
+      "id": "69ad0262-1e58-5a25-98fd-c85525c61f7c",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "type": "wordpress__acf_users",
+        "contentDigest": "21a06503aee93e571a57177737a39038",
+        "owner": "gatsby-source-wordpress"
+      }
+    },
+    "991e7359-5ba0-5114-91b5-35a968224bcd": {
+      "wordpress_id": 28,
+      "date": "2017-09-02T10:50:27.000Z",
+      "guid": "http://dev-gatbsyjswp.pantheonsite.io/?p=28",
+      "modified": "2017-09-02T10:52:25.000Z",
+      "slug": "sample-post-2",
+      "status": "publish",
+      "type": "post",
+      "link": "http://dev-gatbsyjswp.pantheonsite.io/sample-post-2/",
+      "title": "Sample post 2",
+      "content": "<p>Mauris mattis elit erat, ut sodales lorem vestibulum sit amet. Sed eget urna suscipit nunc facilisis tempor. Nunc vel consequat diam. Fusce scelerisque gravida ex, vitae porttitor velit dictum at. Etiam arcu metus, gravida in libero vitae, porta volutpat ligula. Morbi vestibulum fermentum ipsum id ornare. Curabitur fermentum tellus elit, nec semper diam blandit id. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed efficitur finibus urna, in laoreet tellus sollicitudin sit amet. Phasellus elementum eros nec augue placerat, eget auctor enim mattis. Aenean porta tincidunt pharetra. Aliquam erat volutpat.</p>\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et odio sit amet est eleifend semper vitae iaculis risus. Etiam sit amet purus interdum, laoreet massa ac, tristique tortor. Suspendisse porta nibh a quam faucibus vestibulum. Morbi magna justo, semper eget pellentesque at, maximus sed justo. Vivamus sodales sem in imperdiet lacinia. Proin faucibus lacus arcu, vel laoreet ligula euismod in. Integer faucibus sapien ut nisl pharetra, id scelerisque risus iaculis. Praesent sapien est, semper in rhoncus id, posuere in mi. Proin scelerisque consectetur risus. Praesent faucibus imperdiet nunc ac aliquet. Duis maximus elementum porttitor. Aliquam tempus in metus at finibus. Suspendisse vestibulum diam sit amet diam varius elementum. Quisque nec ornare odio. Curabitur tincidunt, risus eu consectetur tristique, felis leo tincidunt nunc, ut convallis ligula odio at orci.</p>\n",
+      "excerpt": "<p>Mauris mattis elit erat, ut sodales lorem vestibulum sit amet. Sed eget urna suscipit nunc facilisis tempor. Nunc vel consequat diam. Fusce scelerisque gravida ex, vitae porttitor velit dictum at. Etiam arcu metus, gravida in libero vitae, porta volutpat ligula. Morbi vestibulum fermentum ipsum id ornare. Curabitur fermentum tellus elit, nec semper diam blandit id. [&hellip;]</p>\n",
+      "comment_status": "open",
+      "ping_status": "open",
+      "sticky": false,
+      "template": "",
+      "format": "standard",
+      "meta": [],
+      "acf": {
+        "page_builder_post___NODE": [
+          "991e7359-5ba0-5114-91b5-35a968224bcd0page_builderWordPressAcf_excerpt",
+          "991e7359-5ba0-5114-91b5-35a968224bcd1page_builderWordPressAcf_post_photo"
+        ]
+      },
+      "_links": {
+        "self": [
+          {
+            "href": "http://dev-gatbsyjswp.pantheonsite.io/wp-json/wp/v2/posts/28"
+          }
+        ],
+        "collection": [
+          {
+            "href": "http://dev-gatbsyjswp.pantheonsite.io/wp-json/wp/v2/posts"
+          }
+        ],
+        "about": [
+          {
+            "href": "http://dev-gatbsyjswp.pantheonsite.io/wp-json/wp/v2/types/post"
+          }
+        ],
+        "author": [
+          {
+            "embeddable": true,
+            "href": "http://dev-gatbsyjswp.pantheonsite.io/wp-json/wp/v2/users/1"
+          }
+        ],
+        "replies": [
+          {
+            "embeddable": true,
+            "href": "http://dev-gatbsyjswp.pantheonsite.io/wp-json/wp/v2/comments?post=28"
+          }
+        ],
+        "version_history": [
+          {
+            "href": "http://dev-gatbsyjswp.pantheonsite.io/wp-json/wp/v2/posts/28/revisions"
+          }
+        ],
+        "wp_attachment": [
+          {
+            "href": "http://dev-gatbsyjswp.pantheonsite.io/wp-json/wp/v2/media?parent=28"
+          }
+        ],
+        "wp_term": [
+          {
+            "taxonomy": "category",
+            "embeddable": true,
+            "href": "http://dev-gatbsyjswp.pantheonsite.io/wp-json/wp/v2/categories?post=28"
+          },
+          {
+            "taxonomy": "post_tag",
+            "embeddable": true,
+            "href": "http://dev-gatbsyjswp.pantheonsite.io/wp-json/wp/v2/tags?post=28"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      },
+      "id": "991e7359-5ba0-5114-91b5-35a968224bcd",
+      "author___NODE": "c018acb4-c710-5329-9423-762fa8ea4a48",
+      "tags___NODE": [
+        "b0ff0cfd-2e4e-571e-a521-e4b4b52f31f5"
+      ],
+      "categories___NODE": [
+        "17eeedc5-ad7f-512c-a12c-671aad50b2d1"
+      ],
+      "children": [
+        "991e7359-5ba0-5114-91b5-35a968224bcd0page_builderWordPressAcf_excerpt",
+        "991e7359-5ba0-5114-91b5-35a968224bcd1page_builderWordPressAcf_post_photo"
+      ],
+      "parent": null,
+      "internal": {
+        "type": "wordpress__POST",
+        "contentDigest": "d5fc9eb13a4301033b9731bf9bce90cc",
+        "owner": "gatsby-source-wordpress"
+      }
+    },
+    "991e7359-5ba0-5114-91b5-35a968224bcd1page_builderWordPressAcf_post_photo": {
+      "photo___NODE": "bbd8de2a-4ae9-5340-941c-3651080c4768",
+      "id": "991e7359-5ba0-5114-91b5-35a968224bcd1page_builderWordPressAcf_post_photo",
+      "parent": "991e7359-5ba0-5114-91b5-35a968224bcd1",
+      "children": [],
+      "internal": {
+        "type": "WordPressAcf_post_photo",
+        "contentDigest": "9f44fa7df4e796f80b3d08301fbbd91a",
+        "owner": "gatsby-source-wordpress"
+      }
+    },
+    "991e7359-5ba0-5114-91b5-35a968224bcd0page_builderWordPressAcf_excerpt": {
+      "content": "Sed efficitur finibus urna, in laoreet tellus sollicitudin sit amet. Phasellus elementum eros nec augue placerat, eget auctor enim mattis.",
+      "id": "991e7359-5ba0-5114-91b5-35a968224bcd0page_builderWordPressAcf_excerpt",
+      "parent": "991e7359-5ba0-5114-91b5-35a968224bcd0",
+      "children": [],
+      "internal": {
+        "type": "WordPressAcf_excerpt",
+        "contentDigest": "85f0c4be8389c9426e5794f4840576ff",
+        "owner": "gatsby-source-wordpress"
+      }
+    },
+    "b150cbb5-9392-5a14-a07b-f444d7f200ad": {
+      "wordpress_id": 26,
+      "date": "2017-09-02T10:49:35.000Z",
+      "guid": "http://dev-gatbsyjswp.pantheonsite.io/?p=26",
+      "modified": "2017-09-26T22:29:19.000Z",
+      "slug": "sample-post-1",
+      "status": "publish",
+      "type": "post",
+      "link": "http://dev-gatbsyjswp.pantheonsite.io/sample-post-1/",
+      "title": "Sample post 1",
+      "content": "<p>Lorem ipsume Gatbsy Phasellus blandit sollicitudin metus, vitae ultricies tortor pretium sed. Donec et elit sed sapien mattis dapibus non at magna. Nulla et accumsan libero. Cras sodales imperdiet diam ac dictum. Donec mattis lacus nec tempus tempor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc velit arcu, facilisis nec enim vitae, pharetra sollicitudin sem. Maecenas vel sapien consequat, semper justo ut, pharetra purus. Sed malesuada mauris eu odio posuere congue. Etiam quis quam libero. Vestibulum molestie leo at tortor mollis tempus.</p>\n<p>Donec sed ornare velit. Mauris consectetur sit amet tortor eget cursus. Donec suscipit tellus lectus, eget vestibulum diam auctor eget. In varius felis in tortor dignissim eleifend. Maecenas pharetra mi lacus, vitae porttitor mi scelerisque eget. Duis aliquam consequat elit, sed posuere magna. In pulvinar erat non neque fringilla, nec posuere mi tristique. Mauris rhoncus nulla turpis, vitae pretium quam malesuada eu. Nullam porta convallis augue sed gravida.</p>\n<p>Aliquam ac posuere risus. Nam et laoreet nulla. Curabitur ut neque nibh. Maecenas condimentum tellus ultricies nunc porta porta eget a elit. Etiam elementum enim at mi ultrices facilisis id non sapien. Suspendisse suscipit, nulla at pretium ultrices, massa dui semper leo, sed tristique elit ipsum in risus. Nunc sem sapien, condimentum vitae ex ac, porttitor viverra purus. Suspendisse risus est, tincidunt sit amet faucibus ac, molestie quis lacus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed pretium, velit a semper feugiat, libero leo ornare metus, vitae bibendum ante leo vitae odio.</p>\n<p>&nbsp;</p>\n",
+      "excerpt": "<p>Lorem ipsume Gatbsy Phasellus blandit sollicitudin metus, vitae ultricies tortor pretium sed. Donec et elit sed sapien mattis dapibus non at magna. Nulla et accumsan libero. Cras sodales imperdiet diam ac dictum. Donec mattis lacus nec tempus tempor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc velit arcu, facilisis [&hellip;]</p>\n",
+      "comment_status": "open",
+      "ping_status": "open",
+      "sticky": false,
+      "template": "",
+      "format": "standard",
+      "meta": [],
+      "acf": {
+        "page_builder_post___NODE": [
+          "b150cbb5-9392-5a14-a07b-f444d7f200ad0page_builderWordPressAcf_excerpt",
+          "b150cbb5-9392-5a14-a07b-f444d7f200ad1page_builderWordPressAcf_image_gallery",
+          "b150cbb5-9392-5a14-a07b-f444d7f200ad2page_builderWordPressAcf_post_photo"
+        ]
+      },
+      "_links": {
+        "self": [
+          {
+            "href": "http://dev-gatbsyjswp.pantheonsite.io/wp-json/wp/v2/posts/26"
+          }
+        ],
+        "collection": [
+          {
+            "href": "http://dev-gatbsyjswp.pantheonsite.io/wp-json/wp/v2/posts"
+          }
+        ],
+        "about": [
+          {
+            "href": "http://dev-gatbsyjswp.pantheonsite.io/wp-json/wp/v2/types/post"
+          }
+        ],
+        "author": [
+          {
+            "embeddable": true,
+            "href": "http://dev-gatbsyjswp.pantheonsite.io/wp-json/wp/v2/users/1"
+          }
+        ],
+        "replies": [
+          {
+            "embeddable": true,
+            "href": "http://dev-gatbsyjswp.pantheonsite.io/wp-json/wp/v2/comments?post=26"
+          }
+        ],
+        "version_history": [
+          {
+            "href": "http://dev-gatbsyjswp.pantheonsite.io/wp-json/wp/v2/posts/26/revisions"
+          }
+        ],
+        "wp_attachment": [
+          {
+            "href": "http://dev-gatbsyjswp.pantheonsite.io/wp-json/wp/v2/media?parent=26"
+          }
+        ],
+        "wp_term": [
+          {
+            "taxonomy": "category",
+            "embeddable": true,
+            "href": "http://dev-gatbsyjswp.pantheonsite.io/wp-json/wp/v2/categories?post=26"
+          },
+          {
+            "taxonomy": "post_tag",
+            "embeddable": true,
+            "href": "http://dev-gatbsyjswp.pantheonsite.io/wp-json/wp/v2/tags?post=26"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      },
+      "id": "b150cbb5-9392-5a14-a07b-f444d7f200ad",
+      "author___NODE": "c018acb4-c710-5329-9423-762fa8ea4a48",
+      "tags___NODE": [
+        "49f47a11-69c9-5928-9107-05f3bbd58d13"
+      ],
+      "categories___NODE": [
+        "988ddb23-ac5a-500f-8947-d58f171d793e"
+      ],
+      "children": [
+        "b150cbb5-9392-5a14-a07b-f444d7f200ad0page_builderWordPressAcf_excerpt",
+        "b150cbb5-9392-5a14-a07b-f444d7f200ad1page_builderWordPressAcf_image_gallery",
+        "b150cbb5-9392-5a14-a07b-f444d7f200ad2page_builderWordPressAcf_post_photo"
+      ],
+      "parent": null,
+      "internal": {
+        "type": "wordpress__POST",
+        "contentDigest": "1728350fd57ee53e6a5a5e1eaef18d9f",
+        "owner": "gatsby-source-wordpress"
+      }
+    },
+    "b150cbb5-9392-5a14-a07b-f444d7f200ad2page_builderWordPressAcf_post_photo": {
+      "photo___NODE": "7f6e6100-fa9b-5de0-a44f-db4606a84957",
+      "id": "b150cbb5-9392-5a14-a07b-f444d7f200ad2page_builderWordPressAcf_post_photo",
+      "parent": "b150cbb5-9392-5a14-a07b-f444d7f200ad2",
+      "children": [],
+      "internal": {
+        "type": "WordPressAcf_post_photo",
+        "contentDigest": "33e05b84b10b5912f91f3186cc7b3b76",
+        "owner": "gatsby-source-wordpress"
+      }
+    },
+    "b150cbb5-9392-5a14-a07b-f444d7f200ad1page_builderWordPressAcf_image_gallery": {
+      "pictures": [
+        {
+          "title": "Venise",
+          "picture___NODE": "7f6e6100-fa9b-5de0-a44f-db4606a84957"
+        },
+        {
+          "title": "",
+          "picture___NODE": "bbd8de2a-4ae9-5340-941c-3651080c4768"
+        }
+      ],
+      "id": "b150cbb5-9392-5a14-a07b-f444d7f200ad1page_builderWordPressAcf_image_gallery",
+      "parent": "b150cbb5-9392-5a14-a07b-f444d7f200ad1",
+      "children": [],
+      "internal": {
+        "type": "WordPressAcf_image_gallery",
+        "contentDigest": "8273374afd24f8d8dc35225ad2b2a586",
+        "owner": "gatsby-source-wordpress"
+      }
+    },
+    "b150cbb5-9392-5a14-a07b-f444d7f200ad0page_builderWordPressAcf_excerpt": {
+      "content": "Phasellus blandit sollicitudin metus, vitae ultricies tortor pretium sed. Donec et elit sed sapien mattis dapibus non at magna. Nulla et accumsan.",
+      "id": "b150cbb5-9392-5a14-a07b-f444d7f200ad0page_builderWordPressAcf_excerpt",
+      "parent": "b150cbb5-9392-5a14-a07b-f444d7f200ad0",
+      "children": [],
+      "internal": {
+        "type": "WordPressAcf_excerpt",
+        "contentDigest": "5e9b61c80dc85ebb82361fe05ebeea99",
+        "owner": "gatsby-source-wordpress"
+      }
+    },
+    "ca531a60-9d1d-5593-894d-8c0f9ffc55d7": {
+      "wordpress_id": 5,
+      "date": "2017-09-02T10:30:57.000Z",
+      "guid": "http://dev-gatbsyjswp.pantheonsite.io/?page_id=5",
+      "modified": "2017-09-26T21:23:51.000Z",
+      "slug": "gatsby-sample-home-page",
+      "status": "publish",
+      "type": "page",
+      "link": "http://dev-gatbsyjswp.pantheonsite.io/",
+      "title": "Gatsby sample home page",
+      "content": "<h1>Lorem ipsume</h1>\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et odio sit amet est eleifend semper vitae iaculis risus. Etiam sit amet purus interdum, laoreet massa ac, tristique tortor. Suspendisse porta nibh a quam faucibus vestibulum. Morbi magna justo, semper eget pellentesque at, maximus sed justo. Vivamus sodales sem in imperdiet lacinia. Proin faucibus lacus arcu, vel laoreet ligula euismod in. <strong>Integer faucibus sapien ut nisl pharetra</strong>, id scelerisque risus iaculis. Praesent sapien est, semper in rhoncus id, posuere in mi. Proin scelerisque consectetur risus. Praesent faucibus imperdiet nunc ac aliquet. Duis maximus elementum porttitor. Aliquam tempus in metus at finibus. Suspendisse vestibulum diam sit amet diam varius elementum. Quisque nec ornare odio. Curabitur tincidunt, risus eu consectetur tristique, felis leo tincidunt nunc, ut convallis ligula odio at orci.</p>\n<p>Mauris mattis elit erat, ut sodales lorem vestibulum sit amet. Sed eget urna suscipit nunc facilisis tempor. Nunc vel consequat diam. Fusce scelerisque gravida ex, vitae porttitor velit dictum at. Etiam arcu metus, gravida in libero vitae, porta volutpat ligula. Morbi vestibulum fermentum ipsum id ornare. Curabitur fermentum tellus elit, nec semper diam blandit id. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed efficitur finibus urna, in laoreet tellus sollicitudin sit amet. Phasellus elementum eros nec augue placerat, eget auctor enim mattis. Aenean porta tincidunt pharetra. Aliquam erat volutpat.</p>\n<p>Aliquam ac posuere risus. Nam et laoreet nulla. Curabitur ut neque nibh. Maecenas condimentum tellus ultricies nunc porta porta eget a elit. Etiam elementum enim at mi ultrices facilisis id non sapien. Suspendisse suscipit, nulla at pretium ultrices, massa dui semper leo, sed tristique elit ipsum in risus. Nunc sem sapien, condimentum vitae ex ac, porttitor viverra purus. Suspendisse risus est, tincidunt sit amet faucibus ac, molestie quis lacus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed pretium, velit a semper feugiat, libero leo ornare metus, vitae bibendum ante leo vitae odio.</p>\n<p>Donec sed ornare velit. Mauris consectetur sit amet tortor eget cursus. Donec suscipit tellus lectus, eget vestibulum diam auctor eget. In varius felis in tortor dignissim eleifend. Maecenas pharetra mi lacus, vitae porttitor mi scelerisque eget. Duis aliquam consequat elit, sed posuere magna. In pulvinar erat non neque fringilla, nec posuere mi tristique. Mauris rhoncus nulla turpis, vitae pretium quam malesuada eu. Nullam porta convallis augue sed gravida.</p>\n<p>Phasellus blandit sollicitudin metus, vitae ultricies tortor pretium sed. Donec et elit sed sapien mattis dapibus non at magna. Nulla et accumsan libero. Cras sodales imperdiet diam ac dictum. Donec mattis lacus nec tempus tempor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc velit arcu, facilisis nec enim vitae, pharetra sollicitudin sem. Maecenas vel sapien consequat, semper justo ut, pharetra purus. Sed malesuada mauris eu odio posuere congue. Etiam quis quam libero. Vestibulum molestie leo at tortor mollis tempus.</p>\n",
+      "excerpt": "<p>Lorem ipsume Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et odio sit amet est eleifend semper vitae iaculis risus. Etiam sit amet purus interdum, laoreet massa ac, tristique tortor. Suspendisse porta nibh a quam faucibus vestibulum. Morbi magna justo, semper eget pellentesque at, maximus sed justo. Vivamus sodales sem in imperdiet lacinia. Proin [&hellip;]</p>\n",
+      "wordpress_parent": 0,
+      "menu_order": 0,
+      "comment_status": "closed",
+      "ping_status": "closed",
+      "template": "",
+      "meta": [],
+      "acf": {
+        "linked_image___NODE": "bbd8de2a-4ae9-5340-941c-3651080c4768",
+        "dummy": true
+      },
+      "_links": {
+        "self": [
+          {
+            "href": "http://dev-gatbsyjswp.pantheonsite.io/wp-json/wp/v2/pages/5"
+          }
+        ],
+        "collection": [
+          {
+            "href": "http://dev-gatbsyjswp.pantheonsite.io/wp-json/wp/v2/pages"
+          }
+        ],
+        "about": [
+          {
+            "href": "http://dev-gatbsyjswp.pantheonsite.io/wp-json/wp/v2/types/page"
+          }
+        ],
+        "author": [
+          {
+            "embeddable": true,
+            "href": "http://dev-gatbsyjswp.pantheonsite.io/wp-json/wp/v2/users/1"
+          }
+        ],
+        "replies": [
+          {
+            "embeddable": true,
+            "href": "http://dev-gatbsyjswp.pantheonsite.io/wp-json/wp/v2/comments?post=5"
+          }
+        ],
+        "version_history": [
+          {
+            "href": "http://dev-gatbsyjswp.pantheonsite.io/wp-json/wp/v2/pages/5/revisions"
+          }
+        ],
+        "wp_attachment": [
+          {
+            "href": "http://dev-gatbsyjswp.pantheonsite.io/wp-json/wp/v2/media?parent=5"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      },
+      "id": "ca531a60-9d1d-5593-894d-8c0f9ffc55d7",
+      "author___NODE": "c018acb4-c710-5329-9423-762fa8ea4a48",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "type": "wordpress__PAGE",
+        "contentDigest": "2a4a1bc47eca0832b931a63338fe7de6",
+        "owner": "gatsby-source-wordpress"
+      }
+    },
+    "7f6e6100-fa9b-5de0-a44f-db4606a84957": {
+      "wordpress_id": 12,
+      "date": "2017-09-02T10:36:43.000Z",
+      "modified": "2017-09-02T10:52:39.000Z",
+      "slug": "pexels-photo-534327",
+      "status": "inherit",
+      "type": "attachment",
+      "link": "http://dev-gatbsyjswp.pantheonsite.io/sample-post-1/pexels-photo-534327/",
+      "title": "pexels-photo-534327",
+      "comment_status": "open",
+      "ping_status": "closed",
+      "template": "",
+      "meta": [],
+      "description": "<p class=\"attachment\"><a href='http://dev-gatbsyjswp.pantheonsite.io/wp-content/uploads/2017/09/pexels-photo-534327.jpeg'><img width=\"300\" height=\"200\" src=\"http://dev-gatbsyjswp.pantheonsite.io/wp-content/uploads/2017/09/pexels-photo-534327-300x200.jpeg\" class=\"attachment-medium size-medium\" alt=\"\" srcset=\"http://dev-gatbsyjswp.pantheonsite.io/wp-content/uploads/2017/09/pexels-photo-534327-300x200.jpeg 300w, http://dev-gatbsyjswp.pantheonsite.io/wp-content/uploads/2017/09/pexels-photo-534327-768x512.jpeg 768w, http://dev-gatbsyjswp.pantheonsite.io/wp-content/uploads/2017/09/pexels-photo-534327-1024x683.jpeg 1024w\" sizes=\"(max-width: 300px) 100vw, 300px\" /></a></p>\n",
+      "caption": "",
+      "alt_text": "",
+      "media_type": "image",
+      "mime_type": "image/jpeg",
+      "media_details": {
+        "width": 6000,
+        "height": 4000,
+        "file": "2017/09/pexels-photo-534327.jpeg",
+        "image_meta": {
+          "aperture": "7.1",
+          "credit": "",
+          "camera": "ILCA-77M2",
+          "caption": "",
+          "created_timestamp": "1414776055",
+          "copyright": "",
+          "focal_length": "24",
+          "iso": "100",
+          "shutter_speed": "0.01",
+          "title": "",
+          "orientation": "1",
+          "keywords": []
+        }
+      },
+      "post": 26,
+      "source_url": "http://dev-gatbsyjswp.pantheonsite.io/wp-content/uploads/2017/09/pexels-photo-534327.jpeg",
+      "_links": {
+        "self": [
+          {
+            "href": "http://dev-gatbsyjswp.pantheonsite.io/wp-json/wp/v2/media/12"
+          }
+        ],
+        "collection": [
+          {
+            "href": "http://dev-gatbsyjswp.pantheonsite.io/wp-json/wp/v2/media"
+          }
+        ],
+        "about": [
+          {
+            "href": "http://dev-gatbsyjswp.pantheonsite.io/wp-json/wp/v2/types/attachment"
+          }
+        ],
+        "author": [
+          {
+            "embeddable": true,
+            "href": "http://dev-gatbsyjswp.pantheonsite.io/wp-json/wp/v2/users/1"
+          }
+        ],
+        "replies": [
+          {
+            "embeddable": true,
+            "href": "http://dev-gatbsyjswp.pantheonsite.io/wp-json/wp/v2/comments?post=12"
+          }
+        ]
+      },
+      "id": "7f6e6100-fa9b-5de0-a44f-db4606a84957",
+      "author___NODE": "c018acb4-c710-5329-9423-762fa8ea4a48",
+      "guid___NODE": "7f6e6100-fa9b-5de0-a44f-db4606a84957",
+      "localFile___NODE": "C:/Users/lukes/Documents/GitHub/wordpress-tutorial-site/.cache/gatsby-source-filesystem/d47fc0d9fd71e4e41947b74378a92d33.jpeg absPath of file",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "type": "wordpress__wp_media",
+        "contentDigest": "e5d81087c362e0fd67c3006dd7a1119f",
+        "owner": "gatsby-source-wordpress"
+      }
+    },
+    "bbd8de2a-4ae9-5340-941c-3651080c4768": {
+      "wordpress_id": 10,
+      "date": "2017-09-02T10:35:16.000Z",
+      "modified": "2017-09-02T10:52:23.000Z",
+      "slug": "pexels-photo-534351",
+      "status": "inherit",
+      "type": "attachment",
+      "link": "http://dev-gatbsyjswp.pantheonsite.io/gatsby-sample-home-page/pexels-photo-534351/",
+      "title": "pexels-photo-534351",
+      "comment_status": "open",
+      "ping_status": "closed",
+      "template": "",
+      "meta": [],
+      "description": "<p class=\"attachment\"><a href='http://dev-gatbsyjswp.pantheonsite.io/wp-content/uploads/2017/09/pexels-photo-534351.jpeg'><img width=\"300\" height=\"200\" src=\"http://dev-gatbsyjswp.pantheonsite.io/wp-content/uploads/2017/09/pexels-photo-534351-300x200.jpeg\" class=\"attachment-medium size-medium\" alt=\"\" srcset=\"http://dev-gatbsyjswp.pantheonsite.io/wp-content/uploads/2017/09/pexels-photo-534351-300x200.jpeg 300w, http://dev-gatbsyjswp.pantheonsite.io/wp-content/uploads/2017/09/pexels-photo-534351-768x512.jpeg 768w, http://dev-gatbsyjswp.pantheonsite.io/wp-content/uploads/2017/09/pexels-photo-534351-1024x683.jpeg 1024w\" sizes=\"(max-width: 300px) 100vw, 300px\" /></a></p>\n",
+      "caption": "",
+      "alt_text": "",
+      "media_type": "image",
+      "mime_type": "image/jpeg",
+      "media_details": {
+        "width": 6000,
+        "height": 4000,
+        "file": "2017/09/pexels-photo-534351.jpeg",
+        "image_meta": {
+          "aperture": "10",
+          "credit": "",
+          "camera": "ILCA-77M2",
+          "caption": "",
+          "created_timestamp": "1414838901",
+          "copyright": "",
+          "focal_length": "24",
+          "iso": "100",
+          "shutter_speed": "0.005",
+          "title": "",
+          "orientation": "1",
+          "keywords": []
+        }
+      },
+      "post": 5,
+      "source_url": "http://dev-gatbsyjswp.pantheonsite.io/wp-content/uploads/2017/09/pexels-photo-534351.jpeg",
+      "_links": {
+        "self": [
+          {
+            "href": "http://dev-gatbsyjswp.pantheonsite.io/wp-json/wp/v2/media/10"
+          }
+        ],
+        "collection": [
+          {
+            "href": "http://dev-gatbsyjswp.pantheonsite.io/wp-json/wp/v2/media"
+          }
+        ],
+        "about": [
+          {
+            "href": "http://dev-gatbsyjswp.pantheonsite.io/wp-json/wp/v2/types/attachment"
+          }
+        ],
+        "author": [
+          {
+            "embeddable": true,
+            "href": "http://dev-gatbsyjswp.pantheonsite.io/wp-json/wp/v2/users/1"
+          }
+        ],
+        "replies": [
+          {
+            "embeddable": true,
+            "href": "http://dev-gatbsyjswp.pantheonsite.io/wp-json/wp/v2/comments?post=10"
+          }
+        ]
+      },
+      "id": "bbd8de2a-4ae9-5340-941c-3651080c4768",
+      "author___NODE": "c018acb4-c710-5329-9423-762fa8ea4a48",
+      "guid___NODE": "bbd8de2a-4ae9-5340-941c-3651080c4768",
+      "localFile___NODE": "C:/Users/lukes/Documents/GitHub/wordpress-tutorial-site/.cache/gatsby-source-filesystem/d44e69b71d3e3656574191904642be02.jpeg absPath of file",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "type": "wordpress__wp_media",
+        "contentDigest": "9d0b9fedef7dab8896c81fa84e9b32ab",
+        "owner": "gatsby-source-wordpress"
+      }
+    },
+    "a2d1aa19-233b-5acb-b193-a8f8dbfb3e80": {
+      "wordpress_id": "post",
+      "description": "",
+      "hierarchical": false,
+      "name": "Posts",
+      "slug": "post",
+      "taxonomies": [
+        "category",
+        "post_tag"
+      ],
+      "rest_base": "posts",
+      "_links": {
+        "collection": [
+          {
+            "href": "http://dev-gatbsyjswp.pantheonsite.io/wp-json/wp/v2/types"
+          }
+        ],
+        "wp_items": [
+          {
+            "href": "http://dev-gatbsyjswp.pantheonsite.io/wp-json/wp/v2/posts"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      },
+      "id": "a2d1aa19-233b-5acb-b193-a8f8dbfb3e80",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "type": "wordpress__wp_types",
+        "contentDigest": "1c0de407dcb70b956472543ee911f8b1",
+        "owner": "gatsby-source-wordpress"
+      }
+    },
+    "c8b09b7f-356c-5009-981d-86669dcbafcc": {
+      "wordpress_id": "page",
+      "description": "",
+      "hierarchical": true,
+      "name": "Pages",
+      "slug": "page",
+      "taxonomies": [],
+      "rest_base": "pages",
+      "_links": {
+        "collection": [
+          {
+            "href": "http://dev-gatbsyjswp.pantheonsite.io/wp-json/wp/v2/types"
+          }
+        ],
+        "wp_items": [
+          {
+            "href": "http://dev-gatbsyjswp.pantheonsite.io/wp-json/wp/v2/pages"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      },
+      "id": "c8b09b7f-356c-5009-981d-86669dcbafcc",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "type": "wordpress__wp_types",
+        "contentDigest": "6c3dd98f51b94a5209301f10c6be63c3",
+        "owner": "gatsby-source-wordpress"
+      }
+    },
+    "b69811c2-484a-5b8c-9c5a-d0da3737bf18": {
+      "wordpress_id": "attachment",
+      "description": "",
+      "hierarchical": false,
+      "name": "Media",
+      "slug": "attachment",
+      "taxonomies": [],
+      "rest_base": "media",
+      "_links": {
+        "collection": [
+          {
+            "href": "http://dev-gatbsyjswp.pantheonsite.io/wp-json/wp/v2/types"
+          }
+        ],
+        "wp_items": [
+          {
+            "href": "http://dev-gatbsyjswp.pantheonsite.io/wp-json/wp/v2/media"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      },
+      "id": "b69811c2-484a-5b8c-9c5a-d0da3737bf18",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "type": "wordpress__wp_types",
+        "contentDigest": "9246c57346258375d58a20a89d3c81c5",
+        "owner": "gatsby-source-wordpress"
+      }
+    },
+    "59223e42-064c-537b-b2f6-e7a534391e19": {
+      "wordpress_id": "publish",
+      "name": "Published",
+      "public": true,
+      "queryable": true,
+      "slug": "publish",
+      "_links": {
+        "archives": [
+          {
+            "href": "http://dev-gatbsyjswp.pantheonsite.io/wp-json/wp/v2/posts"
+          }
+        ]
+      },
+      "id": "59223e42-064c-537b-b2f6-e7a534391e19",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "type": "wordpress__wp_statuses",
+        "contentDigest": "75ec6b8e5f56abcbf60a98b8bd1cbade",
+        "owner": "gatsby-source-wordpress"
+      }
+    },
+    "caf4e364-5082-5e2f-8520-d98910e399e5": {
+      "wordpress_id": "acf-disabled",
+      "name": "Inactive",
+      "public": true,
+      "queryable": true,
+      "slug": "acf-disabled",
+      "_links": {
+        "archives": [
+          {
+            "href": "http://dev-gatbsyjswp.pantheonsite.io/wp-json/wp/v2/posts?status=acf-disabled"
+          }
+        ]
+      },
+      "id": "caf4e364-5082-5e2f-8520-d98910e399e5",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "type": "wordpress__wp_statuses",
+        "contentDigest": "623b3d550f53000ead75693334c0b6f5",
+        "owner": "gatsby-source-wordpress"
+      }
+    },
+    "a5a9ef9b-18e6-5a52-bce8-ed8b7aa25844": {
+      "wordpress_id": "category",
+      "name": "Categories",
+      "slug": "category",
+      "description": "",
+      "types": [
+        "post"
+      ],
+      "hierarchical": true,
+      "rest_base": "categories",
+      "_links": {
+        "collection": [
+          {
+            "href": "http://dev-gatbsyjswp.pantheonsite.io/wp-json/wp/v2/taxonomies"
+          }
+        ],
+        "wp_items": [
+          {
+            "href": "http://dev-gatbsyjswp.pantheonsite.io/wp-json/wp/v2/categories"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      },
+      "id": "a5a9ef9b-18e6-5a52-bce8-ed8b7aa25844",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "type": "wordpress__wp_taxonomies",
+        "contentDigest": "cef3d02e2ec0a3431c31a255104ac88e",
+        "owner": "gatsby-source-wordpress"
+      }
+    },
+    "92aef5e8-a969-590e-8788-9b65d3c78cce": {
+      "wordpress_id": "post_tag",
+      "name": "Tags",
+      "slug": "post_tag",
+      "description": "",
+      "types": [
+        "post"
+      ],
+      "hierarchical": false,
+      "rest_base": "tags",
+      "_links": {
+        "collection": [
+          {
+            "href": "http://dev-gatbsyjswp.pantheonsite.io/wp-json/wp/v2/taxonomies"
+          }
+        ],
+        "wp_items": [
+          {
+            "href": "http://dev-gatbsyjswp.pantheonsite.io/wp-json/wp/v2/tags"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      },
+      "id": "92aef5e8-a969-590e-8788-9b65d3c78cce",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "type": "wordpress__wp_taxonomies",
+        "contentDigest": "c7d3cf31f590e384b0dfd01a9e61937f",
+        "owner": "gatsby-source-wordpress"
+      }
+    },
+    "988ddb23-ac5a-500f-8947-d58f171d793e": {
+      "wordpress_id": 2,
+      "count": 1,
+      "description": "",
+      "link": "http://dev-gatbsyjswp.pantheonsite.io/category/sample-category-1/",
+      "name": "Sample category 1",
+      "slug": "sample-category-1",
+      "wordpress_parent": 0,
+      "meta": [],
+      "_links": {
+        "self": [
+          {
+            "href": "http://dev-gatbsyjswp.pantheonsite.io/wp-json/wp/v2/categories/2"
+          }
+        ],
+        "collection": [
+          {
+            "href": "http://dev-gatbsyjswp.pantheonsite.io/wp-json/wp/v2/categories"
+          }
+        ],
+        "about": [
+          {
+            "href": "http://dev-gatbsyjswp.pantheonsite.io/wp-json/wp/v2/taxonomies/category"
+          }
+        ],
+        "wp_post_type": [
+          {
+            "href": "http://dev-gatbsyjswp.pantheonsite.io/wp-json/wp/v2/posts?categories=2"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      },
+      "id": "988ddb23-ac5a-500f-8947-d58f171d793e",
+      "taxonomy___NODE": "a5a9ef9b-18e6-5a52-bce8-ed8b7aa25844",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "type": "wordpress__CATEGORY",
+        "contentDigest": "02142fc6a4c5ae59967c45b3e3d0ba0f",
+        "owner": "gatsby-source-wordpress"
+      }
+    },
+    "17eeedc5-ad7f-512c-a12c-671aad50b2d1": {
+      "wordpress_id": 3,
+      "count": 1,
+      "description": "",
+      "link": "http://dev-gatbsyjswp.pantheonsite.io/category/sample-category-2/",
+      "name": "Sample category 2",
+      "slug": "sample-category-2",
+      "wordpress_parent": 0,
+      "meta": [],
+      "_links": {
+        "self": [
+          {
+            "href": "http://dev-gatbsyjswp.pantheonsite.io/wp-json/wp/v2/categories/3"
+          }
+        ],
+        "collection": [
+          {
+            "href": "http://dev-gatbsyjswp.pantheonsite.io/wp-json/wp/v2/categories"
+          }
+        ],
+        "about": [
+          {
+            "href": "http://dev-gatbsyjswp.pantheonsite.io/wp-json/wp/v2/taxonomies/category"
+          }
+        ],
+        "wp_post_type": [
+          {
+            "href": "http://dev-gatbsyjswp.pantheonsite.io/wp-json/wp/v2/posts?categories=3"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      },
+      "id": "17eeedc5-ad7f-512c-a12c-671aad50b2d1",
+      "taxonomy___NODE": "a5a9ef9b-18e6-5a52-bce8-ed8b7aa25844",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "type": "wordpress__CATEGORY",
+        "contentDigest": "1cfc79483903cd57f12277300b0104f3",
+        "owner": "gatsby-source-wordpress"
+      }
+    },
+    "f24b5a9e-ed37-56c1-978a-9c95dbc988a9": {
+      "wordpress_id": 1,
+      "count": 0,
+      "description": "",
+      "link": "http://dev-gatbsyjswp.pantheonsite.io/category/uncategorized/",
+      "name": "Uncategorized",
+      "slug": "uncategorized",
+      "wordpress_parent": 0,
+      "meta": [],
+      "_links": {
+        "self": [
+          {
+            "href": "http://dev-gatbsyjswp.pantheonsite.io/wp-json/wp/v2/categories/1"
+          }
+        ],
+        "collection": [
+          {
+            "href": "http://dev-gatbsyjswp.pantheonsite.io/wp-json/wp/v2/categories"
+          }
+        ],
+        "about": [
+          {
+            "href": "http://dev-gatbsyjswp.pantheonsite.io/wp-json/wp/v2/taxonomies/category"
+          }
+        ],
+        "wp_post_type": [
+          {
+            "href": "http://dev-gatbsyjswp.pantheonsite.io/wp-json/wp/v2/posts?categories=1"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      },
+      "id": "f24b5a9e-ed37-56c1-978a-9c95dbc988a9",
+      "taxonomy___NODE": "a5a9ef9b-18e6-5a52-bce8-ed8b7aa25844",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "type": "wordpress__CATEGORY",
+        "contentDigest": "0babbd3e8b176eacecbbde008f7f4d45",
+        "owner": "gatsby-source-wordpress"
+      }
+    },
+    "49f47a11-69c9-5928-9107-05f3bbd58d13": {
+      "wordpress_id": 4,
+      "count": 1,
+      "description": "",
+      "link": "http://dev-gatbsyjswp.pantheonsite.io/tag/sample-tag-1/",
+      "name": "Sample tag 1",
+      "slug": "sample-tag-1",
+      "meta": [],
+      "_links": {
+        "self": [
+          {
+            "href": "http://dev-gatbsyjswp.pantheonsite.io/wp-json/wp/v2/tags/4"
+          }
+        ],
+        "collection": [
+          {
+            "href": "http://dev-gatbsyjswp.pantheonsite.io/wp-json/wp/v2/tags"
+          }
+        ],
+        "about": [
+          {
+            "href": "http://dev-gatbsyjswp.pantheonsite.io/wp-json/wp/v2/taxonomies/post_tag"
+          }
+        ],
+        "wp_post_type": [
+          {
+            "href": "http://dev-gatbsyjswp.pantheonsite.io/wp-json/wp/v2/posts?tags=4"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      },
+      "id": "49f47a11-69c9-5928-9107-05f3bbd58d13",
+      "taxonomy___NODE": "92aef5e8-a969-590e-8788-9b65d3c78cce",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "type": "wordpress__TAG",
+        "contentDigest": "6dc9a870fe3c4fc614e8eae22cb425f8",
+        "owner": "gatsby-source-wordpress"
+      }
+    },
+    "b0ff0cfd-2e4e-571e-a521-e4b4b52f31f5": {
+      "wordpress_id": 5,
+      "count": 1,
+      "description": "",
+      "link": "http://dev-gatbsyjswp.pantheonsite.io/tag/sample-tag-2/",
+      "name": "Sample tag 2",
+      "slug": "sample-tag-2",
+      "meta": [],
+      "_links": {
+        "self": [
+          {
+            "href": "http://dev-gatbsyjswp.pantheonsite.io/wp-json/wp/v2/tags/5"
+          }
+        ],
+        "collection": [
+          {
+            "href": "http://dev-gatbsyjswp.pantheonsite.io/wp-json/wp/v2/tags"
+          }
+        ],
+        "about": [
+          {
+            "href": "http://dev-gatbsyjswp.pantheonsite.io/wp-json/wp/v2/taxonomies/post_tag"
+          }
+        ],
+        "wp_post_type": [
+          {
+            "href": "http://dev-gatbsyjswp.pantheonsite.io/wp-json/wp/v2/posts?tags=5"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      },
+      "id": "b0ff0cfd-2e4e-571e-a521-e4b4b52f31f5",
+      "taxonomy___NODE": "92aef5e8-a969-590e-8788-9b65d3c78cce",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "type": "wordpress__TAG",
+        "contentDigest": "53bd3dca2e66fd11c139371619cbca3f",
+        "owner": "gatsby-source-wordpress"
+      }
+    },
+    "c018acb4-c710-5329-9423-762fa8ea4a48": {
+      "wordpress_id": 1,
+      "name": "gatsby",
+      "url": "",
+      "description": "",
+      "link": "http://dev-gatbsyjswp.pantheonsite.io/author/gatsby/",
+      "slug": "gatsby",
+      "avatar_urls": {
+        "wordpress_24": "http://2.gravatar.com/avatar/bd015b2f012c7da7baf972ba8f05cfd5?s=24&d=mm&r=g",
+        "wordpress_48": "http://2.gravatar.com/avatar/bd015b2f012c7da7baf972ba8f05cfd5?s=48&d=mm&r=g",
+        "wordpress_96": "http://2.gravatar.com/avatar/bd015b2f012c7da7baf972ba8f05cfd5?s=96&d=mm&r=g"
+      },
+      "meta": [],
+      "_links": {
+        "self": [
+          {
+            "href": "http://dev-gatbsyjswp.pantheonsite.io/wp-json/wp/v2/users/1"
+          }
+        ],
+        "collection": [
+          {
+            "href": "http://dev-gatbsyjswp.pantheonsite.io/wp-json/wp/v2/users"
+          }
+        ]
+      },
+      "id": "c018acb4-c710-5329-9423-762fa8ea4a48",
+      "all_authored_entities___NODE": [
+        "991e7359-5ba0-5114-91b5-35a968224bcd",
+        "b150cbb5-9392-5a14-a07b-f444d7f200ad",
+        "ca531a60-9d1d-5593-894d-8c0f9ffc55d7",
+        "7f6e6100-fa9b-5de0-a44f-db4606a84957",
+        "bbd8de2a-4ae9-5340-941c-3651080c4768"
+      ],
+      "authored_wordpress__POST___NODE": [
+        "991e7359-5ba0-5114-91b5-35a968224bcd",
+        "b150cbb5-9392-5a14-a07b-f444d7f200ad"
+      ],
+      "authored_wordpress__PAGE___NODE": [
+        "ca531a60-9d1d-5593-894d-8c0f9ffc55d7"
+      ],
+      "authored_wordpress__wp_media___NODE": [
+        "7f6e6100-fa9b-5de0-a44f-db4606a84957",
+        "bbd8de2a-4ae9-5340-941c-3651080c4768"
+      ],
+      "children": [],
+      "parent": null,
+      "internal": {
+        "type": "wordpress__wp_users",
+        "contentDigest": "3b878b7fccf3a8680d819575ac22a02a",
+        "owner": "gatsby-source-wordpress"
+      }
+    },
+    "SitePage /post/sample-post-2/": {
+      "jsonName": "post-sample-post-2-879",
+      "internalComponentName": "ComponentPostSamplePost2",
+      "path": "/post/sample-post-2/",
+      "component": "C:/Users/lukes/Documents/GitHub/wordpress-tutorial-site/src/layouts/post-template.js",
+      "componentChunkName": "component---src-layouts-post-template-js",
+      "context": {
+        "allPostData": {
+          "title": "Sample post 2",
+          "content": "<p>Mauris mattis elit erat, ut sodales lorem vestibulum sit amet. Sed eget urna suscipit nunc facilisis tempor. Nunc vel consequat diam. Fusce scelerisque gravida ex, vitae porttitor velit dictum at. Etiam arcu metus, gravida in libero vitae, porta volutpat ligula. Morbi vestibulum fermentum ipsum id ornare. Curabitur fermentum tellus elit, nec semper diam blandit id. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed efficitur finibus urna, in laoreet tellus sollicitudin sit amet. Phasellus elementum eros nec augue placerat, eget auctor enim mattis. Aenean porta tincidunt pharetra. Aliquam erat volutpat.</p>\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et odio sit amet est eleifend semper vitae iaculis risus. Etiam sit amet purus interdum, laoreet massa ac, tristique tortor. Suspendisse porta nibh a quam faucibus vestibulum. Morbi magna justo, semper eget pellentesque at, maximus sed justo. Vivamus sodales sem in imperdiet lacinia. Proin faucibus lacus arcu, vel laoreet ligula euismod in. Integer faucibus sapien ut nisl pharetra, id scelerisque risus iaculis. Praesent sapien est, semper in rhoncus id, posuere in mi. Proin scelerisque consectetur risus. Praesent faucibus imperdiet nunc ac aliquet. Duis maximus elementum porttitor. Aliquam tempus in metus at finibus. Suspendisse vestibulum diam sit amet diam varius elementum. Quisque nec ornare odio. Curabitur tincidunt, risus eu consectetur tristique, felis leo tincidunt nunc, ut convallis ligula odio at orci.</p>\n",
+          "slug": "sample-post-2"
+        }
+      },
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "C:/Users/lukes/Documents/GitHub/wordpress-tutorial-site/src/layouts/post-template.js",
+      "id": "SitePage /post/sample-post-2/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "7cb5a4e049afa92ca5d59ce0916b12a9",
+        "description": "Your site's \"gatsby-node.js\"",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /post/sample-post-1/": {
+      "jsonName": "post-sample-post-1-d1a",
+      "internalComponentName": "ComponentPostSamplePost1",
+      "path": "/post/sample-post-1/",
+      "component": "C:/Users/lukes/Documents/GitHub/wordpress-tutorial-site/src/layouts/post-template.js",
+      "componentChunkName": "component---src-layouts-post-template-js",
+      "context": {
+        "allPostData": {
+          "title": "Sample post 1",
+          "content": "<p>Lorem ipsume Gatbsy Phasellus blandit sollicitudin metus, vitae ultricies tortor pretium sed. Donec et elit sed sapien mattis dapibus non at magna. Nulla et accumsan libero. Cras sodales imperdiet diam ac dictum. Donec mattis lacus nec tempus tempor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc velit arcu, facilisis nec enim vitae, pharetra sollicitudin sem. Maecenas vel sapien consequat, semper justo ut, pharetra purus. Sed malesuada mauris eu odio posuere congue. Etiam quis quam libero. Vestibulum molestie leo at tortor mollis tempus.</p>\n<p>Donec sed ornare velit. Mauris consectetur sit amet tortor eget cursus. Donec suscipit tellus lectus, eget vestibulum diam auctor eget. In varius felis in tortor dignissim eleifend. Maecenas pharetra mi lacus, vitae porttitor mi scelerisque eget. Duis aliquam consequat elit, sed posuere magna. In pulvinar erat non neque fringilla, nec posuere mi tristique. Mauris rhoncus nulla turpis, vitae pretium quam malesuada eu. Nullam porta convallis augue sed gravida.</p>\n<p>Aliquam ac posuere risus. Nam et laoreet nulla. Curabitur ut neque nibh. Maecenas condimentum tellus ultricies nunc porta porta eget a elit. Etiam elementum enim at mi ultrices facilisis id non sapien. Suspendisse suscipit, nulla at pretium ultrices, massa dui semper leo, sed tristique elit ipsum in risus. Nunc sem sapien, condimentum vitae ex ac, porttitor viverra purus. Suspendisse risus est, tincidunt sit amet faucibus ac, molestie quis lacus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed pretium, velit a semper feugiat, libero leo ornare metus, vitae bibendum ante leo vitae odio.</p>\n<p>&nbsp;</p>\n",
+          "slug": "sample-post-1"
+        }
+      },
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "C:/Users/lukes/Documents/GitHub/wordpress-tutorial-site/src/layouts/post-template.js",
+      "id": "SitePage /post/sample-post-1/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "21c97576f34490e02ffe3c8658180589",
+        "description": "Your site's \"gatsby-node.js\"",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /404/": {
+      "jsonName": "404-22d",
+      "internalComponentName": "Component404",
+      "path": "/404/",
+      "component": "C:/Users/lukes/Documents/GitHub/wordpress-tutorial-site/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "C:/Users/lukes/Documents/GitHub/wordpress-tutorial-site/src/pages/404.js",
+      "id": "SitePage /404/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "04e7d5ce3b21f149035f1d163ff4f090",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /": {
+      "jsonName": "index",
+      "internalComponentName": "ComponentIndex",
+      "path": "/",
+      "component": "C:/Users/lukes/Documents/GitHub/wordpress-tutorial-site/src/pages/index.js",
+      "componentChunkName": "component---src-pages-index-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "C:/Users/lukes/Documents/GitHub/wordpress-tutorial-site/src/pages/index.js",
+      "id": "SitePage /",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "3d327619ede878c511d8c7b72ee75414",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /404.html": {
+      "jsonName": "404-html-516",
+      "internalComponentName": "Component404Html",
+      "path": "/404.html",
+      "component": "C:/Users/lukes/Documents/GitHub/wordpress-tutorial-site/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin prod-404",
+      "pluginCreatorId": "Plugin prod-404",
+      "componentPath": "C:/Users/lukes/Documents/GitHub/wordpress-tutorial-site/src/pages/404.js",
+      "id": "SitePage /404.html",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "786a1a5fe2abc42852cccb0cb21ce3c8",
+        "description": "Plugin prod-404",
+        "owner": "internal-data-bridge"
+      }
+    }
+  },
+  "status": {
+    "plugins": {},
+    "PLUGINS_HASH": "fe6250539d8d3aa8cdf6f28fac39ccdd"
+  },
+  "componentDataDependencies": {
+    "nodes": {},
+    "connections": {
+      "wordpress__POST": [
+        "sq--src-pages-index-js"
+      ]
+    }
+  },
+  "jsonDataPaths": {
+    "post-sample-post-1-d1a": "357/path---post-sample-post-1-d-1-a-e25-0n6EE5RRuVVgGPmOBqAyioYoE",
+    "post-sample-post-2-879": "750/path---post-sample-post-2-879-5db-FAAZhQ6vo5QblXTY4SPxga8Nw",
+    "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
+    "sq--src-pages-index-js": 1293371643,
+    "index": "173/path---index-6a9-NZuapzHg3X9TaN1iIixfv1W23E",
+    "404-22d": "44/path---404-22-d-bce-NZuapzHg3X9TaN1iIixfv1W23E",
+    "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E"
+  },
+  "components": {
+    "C:/Users/lukes/Documents/GitHub/wordpress-tutorial-site/src/layouts/post-template.js": {
+      "query": "",
+      "componentPath": "C:/Users/lukes/Documents/GitHub/wordpress-tutorial-site/src/layouts/post-template.js"
+    },
+    "C:/Users/lukes/Documents/GitHub/wordpress-tutorial-site/.cache/dev-404-page.js": {
+      "query": "",
+      "componentPath": "C:/Users/lukes/Documents/GitHub/wordpress-tutorial-site/.cache/dev-404-page.js"
+    },
+    "C:/Users/lukes/Documents/GitHub/wordpress-tutorial-site/src/pages/404.js": {
+      "query": "",
+      "componentPath": "C:/Users/lukes/Documents/GitHub/wordpress-tutorial-site/src/pages/404.js"
+    },
+    "C:/Users/lukes/Documents/GitHub/wordpress-tutorial-site/src/pages/index.js": {
+      "query": "",
+      "componentPath": "C:/Users/lukes/Documents/GitHub/wordpress-tutorial-site/src/pages/index.js"
+    }
+  },
+  "staticQueryComponents": {
+    "sq--src-pages-index-js": {
+      "name": "allIndexData",
+      "componentPath": "C:/Users/lukes/Documents/GitHub/wordpress-tutorial-site/src/pages/index.js",
+      "id": "sq--src-pages-index-js",
+      "jsonName": "sq--src-pages-index-js",
+      "query": "query allIndexData {\n  allWordpressPost {\n    edges {\n      node {\n        title\n        slug\n        content\n        excerpt\n      }\n    }\n  }\n}\n",
+      "hash": 1293371643
+    }
+  }
+}
