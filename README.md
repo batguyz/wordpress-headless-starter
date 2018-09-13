@@ -190,4 +190,8 @@ query {
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/lukethacoder/wordpress-headless-starter)
 
-> NOTE: would be good to have examples of the createPagesAPI to dynamically create pages for each post/page
+#### Useful Links
+
+[[Medium] GatsbyJS v2 vs Wordpress-CMS](https://medium.com/@lukethacoder/gatsbyjs-v2-vs-wordpress-cms-720ace20f3bc)
+
+[[Medium] Dynamically Create Pages in GatsbyJS v2](https://medium.com/@lukethacoder/dynamically-create-pages-in-gatsbyjs-v2-a57e10c6f0fa) 
